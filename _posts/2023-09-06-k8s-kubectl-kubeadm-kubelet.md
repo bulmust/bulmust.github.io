@@ -168,4 +168,4 @@ kubeadm version
 kubelet --version
 ```
 
-[1]: <https://kubernetes.io/docs/tasks/tools/> https://kubernetes.io/docs/tasks/tools/
+[1]: https://kubernetes.io/docs/tasks/tools/
