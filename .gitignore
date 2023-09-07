@@ -1,3 +1,6 @@
+# All backup extensions
+*.backup
+
 # Notes
 *notes
 
