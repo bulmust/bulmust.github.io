@@ -1,0 +1,19 @@
+console:
+  # MOD - Minio - Console - Ingress
+  ingress:
+    enabled: true
+    ingressClassName: nginx
+    host: minio-console.localhost
+    path: /
+
+# MOD - Minio - Tenant
+tenants:
+  # MOD - Minio - Tenant - monitoring
+  - name: monitoring
+    namespace: monitoring
+    pools:
+      - servers: 1
+        volumesPerServer: 1
+        size: 1Gi
+        storageClassName: standard
+
