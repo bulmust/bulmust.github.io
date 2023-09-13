@@ -1,5 +1,4 @@
 ---
-# https://chirpy.cotes.page/posts/write-a-new-post/
 title: Markdown Tips
 date: 2023-08-22 12:33:00 +0300
 #description: Hello World

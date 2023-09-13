@@ -1,5 +1,4 @@
 ---
-# https://chirpy.cotes.page/posts/write-a-new-post/
 title: Kubernetes MiniKube
 date: 2023-09-07 14:00:00 +0300
 tags: ["k8s", "installations"]
@@ -24,7 +23,7 @@ docker ps -a
 ## Installation
 
 1. Before installing minikube, install `kubectl`. See [this file](/posts/k8s-kubectl-kubeadm-kubelet) for installation instructions.
-2. Install docker. See [this file](/posts/docker) for installation instructions.
+2. Install docker. See [this file](/) for installation instructions.
 3. Documentation and recent version of minikube is [here](https://minikube.sigs.k8s.io/docs/start/).
 4. Run the following commands
 ```sh
