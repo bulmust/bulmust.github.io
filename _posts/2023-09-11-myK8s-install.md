@@ -27,11 +27,11 @@ mermaid: true
 <!--# Check grafana-agent-operator helm chart and version-->
 <!--helm search repo grafana-agent/grafana-agent-->
 <!--```-->
-<!--3. Default grafana-agent-operator helm chart values for version **0.24.0** is [here](assets/charts/values-default/def-grafana-agent-0.24.0.yaml).-->
-<!--4. Override grafana-agent-operator helm chart values for version **0.24.0** is [here](assets/charts/values-override/ovr-grafana-agent-0.24.0_v1.yaml).-->
+<!--3. Default grafana-agent-operator helm chart values for version **0.24.0** is [here](/assets/charts/values-default/def-grafana-agent-0.24.0.yaml).-->
+<!--4. Override grafana-agent-operator helm chart values for version **0.24.0** is [here](/assets/charts/values-override/ovr-grafana-agent-0.24.0_v1.yaml).-->
 <!--  5. Install grafana-agent helm chart -->-->
 <!--```sh-->
-<!--helm upgrade --install grafana-agent grafana/grafana-agent --version 0.24.0 -n monitoring --create-namespace -f assets/charts/values-override/ovr-grafana-agent-0.24.0_v1.yaml-->
+<!--helm upgrade --install grafana-agent grafana/grafana-agent --version 0.24.0 -n monitoring --create-namespace -f /assets/charts/values-override/ovr-grafana-agent-0.24.0_v1.yaml-->
 <!--```-->
 
 ## Install Grafana
@@ -46,11 +46,11 @@ helm repo update
 # Check grafana helm chart and version
 helm search repo grafana/grafana
 ```
-3. Default grafana helm chart values for version **6.59.4** is [here](assets/charts/values-default/def-grafana-6.59.4.yaml).
-4. Override grafana helm chart values for version **6.59.4** is [here](assets/charts/values-override/ovr-grafana-6.59.4_v1.yaml).
+3. Default grafana helm chart values for version **6.59.4** is [here](/assets/charts/values-default/def-grafana-6.59.4.yaml).
+4. Override grafana helm chart values for version **6.59.4** is [here](/assets/charts/values-override/ovr-grafana-6.59.4_v1.yaml).
 5. Install grafana helm chart
 ```sh
-helm upgrade --install grafana grafana/grafana --version 6.59.4 -n monitoring --create-namespace -f assets/charts/values-override/ovr-grafana-6.59.4_v1.yaml
+helm upgrade --install grafana grafana/grafana --version 6.59.4 -n monitoring --create-namespace -f /assets/charts/values-override/ovr-grafana-6.59.4_v1.yaml
 ```
 6. User: `taygun`, password: `taygun`
 
@@ -68,11 +68,11 @@ helm repo update
 # Check minio helm chart and version
 helm search repo minio/minio-operator
 ```
-3. Default minio helm chart values for version **4.3.7** is [here](assets/charts/values-default/def-minio-operator-4.3.7.yaml)
-4. Override minio helm chart values for version **4.3.7** is [here](assets/charts/values-override/ovr-minio-operator-4.3.7_v1.yaml)
+3. Default minio helm chart values for version **4.3.7** is [here](/assets/charts/values-default/def-minio-operator-4.3.7.yaml)
+4. Override minio helm chart values for version **4.3.7** is [here](/assets/charts/values-override/ovr-minio-operator-4.3.7_v1.yaml)
 5. Install minio helm chart
 ```sh
-helm upgrade --install minio minio/minio-operator --version 4.3.7 -n minio --create-namespace -f assets/charts/values-override/ovr-minio-operator-4.3.7_v1.yaml
+helm upgrade --install minio minio/minio-operator --version 4.3.7 -n minio --create-namespace -f /assets/charts/values-override/ovr-minio-operator-4.3.7_v1.yaml
 ```
 6. Create secret for minio console
 ```sh
@@ -105,11 +105,11 @@ helm repo update
 # Check prometheus helm chart and version
 helm search repo prometheus-community/prometheus
 ```
-3. Default prometheus helm chart values for version **24.3.0** is [here](assets/charts/values-default/def-prometheus-24.3.0.yaml)
-4. Override prometheus helm chart values for version **24.3.0** is [here](assets/charts/values-override/ovr-prometheus-24.3.0_v1.yaml)
+3. Default prometheus helm chart values for version **24.3.0** is [here](/assets/charts/values-default/def-prometheus-24.3.0.yaml)
+4. Override prometheus helm chart values for version **24.3.0** is [here](/assets/charts/values-override/ovr-prometheus-24.3.0_v1.yaml)
 5. Install prometheus helm chart
 ```sh
-helm upgrade --install prometheus prometheus-community/prometheus --version 24.3.0 -n monitoring --create-namespace -f assets/charts/values-override/ovr-prometheus-24.3.0_v1.yaml
+helm upgrade --install prometheus prometheus-community/prometheus --version 24.3.0 -n monitoring --create-namespace -f /assets/charts/values-override/ovr-prometheus-24.3.0_v1.yaml
 ```
 
 ## Creating a cluster
