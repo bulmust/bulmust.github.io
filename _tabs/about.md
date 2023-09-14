@@ -2,6 +2,9 @@
 # the default layout is 'page'
 icon: fas fa-info-circle
 order: 1
+math: true
+mermaid: true
+toc: true
 ---
 
 ## Objective
