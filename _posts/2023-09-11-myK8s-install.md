@@ -8,32 +8,6 @@ math: true
 mermaid: true
 ---
 
-<!--## Install Loki-Distributed-->
-
-<!--1. Loki helm chart is [here](https://github.com/grafana/loki/tree/main/production/helm/loki)-->
-<!--2. Requirements-->
-<!--   1. <https://charts.min.io/>, minio, version 4.0.12-->
-<!--   2. <https://grafana.github.io/helm-charts>, grafana-agent-operator, version 0.2.16-->
-
-<!--## Install Grafana Agent-->
-
-<!--1. Grafana Agent helm chart is [here](https://github.com/grafana/agent/tree/main/operations/helm/charts/grafana-agent)-->
-<!--2. Run the following commands-->
-<!--```sh-->
-<!--# Add grafana-agent-operator helm repo-->
-<!--helm repo add grafana-agent https://grafana.github.io/agent-->
-<!--# Update helm repo-->
-<!--helm repo update-->
-<!--# Check grafana-agent-operator helm chart and version-->
-<!--helm search repo grafana-agent/grafana-agent-->
-<!--```-->
-<!--3. Default grafana-agent-operator helm chart values for version **0.24.0** is [here](/assets/charts/values-default/def-grafana-agent-0.24.0.yaml).-->
-<!--4. Override grafana-agent-operator helm chart values for version **0.24.0** is [here](/assets/charts/values-override/ovr-grafana-agent-0.24.0_v1.yaml).-->
-<!--  5. Install grafana-agent helm chart -->-->
-<!--```sh-->
-<!--helm upgrade --install grafana-agent grafana/grafana-agent --version 0.24.0 -n monitoring --create-namespace -f /assets/charts/values-override/ovr-grafana-agent-0.24.0_v1.yaml-->
-<!--```-->
-
 ## Install Grafana
 
 1. Grafana helm chart is [here](https://github.com/grafana/helm-charts/tree/main/charts/grafana)
