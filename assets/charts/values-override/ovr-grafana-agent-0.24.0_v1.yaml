@@ -1,9 +1,0 @@
-# MOD - Grafana Agent - Ingress
-ingress:
-  enabled: true
-  annotations:
-    kubernetes.io/ingress.class: nginx
-  hosts:
-    - grafana-agent.localhost
-  path: /
-  pathType: ImplementationSpecific
